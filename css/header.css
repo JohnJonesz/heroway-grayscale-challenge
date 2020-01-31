@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: #FFF;
+}
+
+.header > .menu {
+    display: inline;
+}
+
+.header > .menu > a {   
+    margin-left: 30px;
+    align-self: center;
+}
