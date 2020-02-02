@@ -5,7 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    color: #6C6C6C;
+    color: #bfbebb;
 }
 
 .header > .menu {
@@ -18,9 +18,9 @@
 }
 
 .header > .menu > a:visited {
-    color: #6C6C6C;
+    color: #bfbebb;
 }
 
 .header > .home > a:visited {
-    color: #6C6C6C;
+    color: #bfbebb;
 }

@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
 }
 
 .banner > h1 {
@@ -12,13 +12,13 @@
     background: -webkit-linear-gradient(#FFF, #333231);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    align-items: center;
+    text-align: center;
 }
 
 .banner > span {
     max-width: 400px;
     text-align: center;
-    color: #4d4c4b;
+    color: #bfbebb;
     font-size: 18px;
 }
 

@@ -1,4 +1,18 @@
-.boostrap {
+.bootstrap {
     display: flex;
     position: relative;
+    flex-direction: column;
+    justify-content: flex-start
+    width: 100%;
+    height: 380px;
+}
+
+.bootstrap > .bootstrap-text {
+    border: 1px solid #000;
+    color: #bfbebb;
+}
+
+.bootstrap > img {
+    max-width: 60%;
+    height: auto;
 }
