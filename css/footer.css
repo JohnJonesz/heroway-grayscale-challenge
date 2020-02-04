@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    position: relative;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/bg-signup.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.footer > .subscribe {
+    flex-direction: row;
+    width: 35%;
+    height: 8%;
+}
+
+.footer > .subscribe > input{
+    width: 74%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.footer > .subscribe > button {
+    width: 25%;
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #aba9a7;
+    background-color: #64A19D;
+    border: 1px solid #000;
+    border: none;
+}
+
+.footer > .subscribe > button > a:visited {
+    color: #FFF;
+}
+
+.footer > .subscribe > button > a:active {
+    color: #333231;
+}

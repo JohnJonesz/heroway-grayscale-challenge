@@ -3,6 +3,7 @@
 @import './banner.css';
 @import './ipad-img.css';
 @import './content.css';
+@import './footer.css';
 
 * {
     margin: 0;

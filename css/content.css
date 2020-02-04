@@ -8,7 +8,7 @@
 }
 
 .content > .border {
-    border: 5px solid#64A19D;
+    border: 3px solid#64A19D;
     height: 17%;
 }
 .content > img {
@@ -22,4 +22,8 @@
 
 .content > .shoreline-text > h3 {
     padding-bottom: 10px;
+}
+
+.content > .misty-mountains {
+    flex-wrap: wrap;
 }
