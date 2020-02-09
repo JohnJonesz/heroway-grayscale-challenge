@@ -1,36 +1,35 @@
 .footer {
     display: flex;
     position: relative;
-    height: 600px;
+    height: 1200px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url('../assets/bg-signup.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-color: #000;
 }
 
 .footer > .subscribe {
     flex-direction: row;
     width: 35%;
-    height: 8%;
+    height: 4%;
 }
 
 .footer > .subscribe > input{
     width: 74%;
     height: 100%;
     border-radius: 5px;
+    padding-left: 30px;
 }
 
 .footer > .subscribe > button {
     width: 25%;
     height: 100%;
-    padding-left: 20px;
     border-radius: 5px;
-    text-align: center;
     color: #aba9a7;
     background-color: #64A19D;
-    border: 1px solid #000;
     border: none;
 }
 
@@ -41,3 +40,35 @@
 .footer > .subscribe > button > a:active {
     color: #333231;
 }
+
+.footer > .contacts {
+    border: 1px solid #000;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.footer > .contacts > a {
+    width: 270px;
+    height: 170px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px;
+    border: 4px solid#64A19D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.footer > .contacts > a > .info > .bar {
+    background-color: #64A19D;
+    justify-content: space-around;
+    width: 40%;
+    height: 5px;
+    border-radius: 3px;
+}
+
+
