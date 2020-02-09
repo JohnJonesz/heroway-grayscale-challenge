@@ -3,7 +3,8 @@
 @import './banner.css';
 @import './ipad-img.css';
 @import './content.css';
-@import './footer.css';
+@import './footer-img.css';
+/* @import './footer-black.css'; */
 
 * {
     margin: 0;
