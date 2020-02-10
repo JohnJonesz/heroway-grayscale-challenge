@@ -37,9 +37,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 60px;
 }
 
-.footer-black > .contacts > a > .info > h2 {
+.footer-black > .contacts > a > .info > h3 {
     color: #000;
 }
 
@@ -61,7 +62,7 @@
 
 .footer-black > .contacts > a > .info > .bar {
     background-color: #64A19D;
-    width: 30%;
+    width: 50px;
     height: 5px;
     border-radius: 3px;
 }
@@ -70,12 +71,13 @@
     border: 1px solid red;
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .footer-black > .social-media > a {
     border: 1px solid red;
     margin: 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: #161616;
 }
 
@@ -85,4 +87,5 @@
     align-items: flex-end;
     justify-content: flex-end;
     color: #aba9a7;
+    font-size: 12px;
 }
