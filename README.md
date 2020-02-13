@@ -1,2 +1,2 @@
-# Desafio do Intensivo de Front end da Heroway
+# Desafio do Intensivo de Frontend da Heroway
 # Grayscale Challenge
